@@ -1,0 +1,23 @@
+name: cellpose
+dependencies:
+ - numpy
+ - h5py
+ - matplotlib
+ - pyemma
+ - scipy
+ - pip
+ - scikit-image
+ - mahotas
+ - umap-learn
+ - pandas
+ - scikit-learn
+ - dask
+ - dask-image
+ - nd2
+
+ - pip:
+   - csaps
+   - pystackreg
+   - btrack
+   - adjustText
+   - cmapfile

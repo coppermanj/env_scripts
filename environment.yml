@@ -20,6 +20,8 @@ dependencies:
  - umap-learn
  - pytorch
  - pandas
+ - fipy
+ - gmsh
 
  - pip:
    - csaps
@@ -28,3 +30,4 @@ dependencies:
    - btrack
    - adjustText
    - cmapfile
+   - nanomesh

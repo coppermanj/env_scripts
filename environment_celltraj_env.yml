@@ -20,6 +20,8 @@ dependencies:
  - umap-learn
  - pytorch
  - pandas
+ - dask
+ - msmtools
 
  - pip:
    - csaps

@@ -10,4 +10,4 @@ pip uninstall btrack
 pip install btrack==0.4.2
 conda deactivate
 conda install -c anaconda ipykernel
-python -m ipykernel install --user --name=cellpose
+python -m ipykernel install --user --name=celltraj_env

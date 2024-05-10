@@ -23,6 +23,7 @@ dependencies:
  - dask
  - msmtools
  - fipy
+ - pot
 
  - pip:
    - csaps
@@ -32,3 +33,4 @@ dependencies:
    - adjustText
    - cmapfile
    - nanomesh
+   - ray

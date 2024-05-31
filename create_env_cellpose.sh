@@ -7,8 +7,8 @@ conda activate cellpose
 python -m pip install cellpose==2.2.2 --upgrade
 #python -m pip install cellpose==2.3.2
 pip uninstall torch -y
-conda install pytorch==1.12.0 cudatoolkit=11.3 -c pytorch -y
-conda env update --file ~/env_scripts/environment_cellpose.yml
+conda install pytorch=1.12.0 cudatoolkit=11.3 mkl=2024.0 -c pytorch -y
+conda env update --file environment_cellpose.yml
 conda install -c anaconda ipykernel
 python -m ipykernel install --user --name=cellpose
 pip install cellpose[gui]

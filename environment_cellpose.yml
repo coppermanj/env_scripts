@@ -6,7 +6,7 @@ dependencies:
  - pyemma
  - scipy
  - pip
- - scikit-image>0.21.0
+ - scikit-image>0.20.0
  - mahotas
  - umap-learn
  - pandas

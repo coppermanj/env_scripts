@@ -29,8 +29,11 @@ dependencies:
    - csaps
    - pystackreg
    - pygpcca
-   - btrack
+   - btrack==0.6.5
    - adjustText
    - cmapfile
    - nanomesh
-   - ray
+   - ray[default]
+   - pyntcloud
+   - multipoles
+   - nd2

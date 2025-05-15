@@ -7,6 +7,7 @@ conda activate cellpose
 python -m pip install cellpose==3.1.0 #--upgrade
 #python -m pip install cellpose==2.3.2
 pip uninstall torch -y
+conda config --add channels conda-forge
 conda install pytorch=1.12.0 cudatoolkit=11.3 mkl=2024.0 -c pytorch -y
 conda env update --file environment_cellpose.yml
 conda install -c anaconda ipykernel
